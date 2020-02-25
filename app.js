@@ -19,9 +19,10 @@ const tabPreview = tabIndex => {
     btnNext.style.display = "inline-block";
     btnSubmit.style.display = "none";
   }
-  // bulletColor(tabIndex);
+  bulletColor(tabIndex);
 };
 tabPreview(currentVIew);
+
 
 const nextPreview = () => {
   mainTabs[currentVIew].style.display = "none";
@@ -30,6 +31,7 @@ const nextPreview = () => {
 };
 btnNext.addEventListener("click", nextPreview);
 
+
 const previousPreview = () => {
   mainTabs[currentVIew].style.display = "none";
   currentVIew--;
@@ -37,12 +39,10 @@ const previousPreview = () => {
 };
 btnPrevious.addEventListener("click", previousPreview);
 
-// function bulletColor(index) {
-//   for (let i = 0; i <= bulletPoint.length; i++) {
-//     if (index === i) {
-//       bulletPoint[i].id = "finish";
-//     }else{
-//       bulletPoint[i].id = "";
-//     }
-//   }
-// }
+function bulletColor(index) {
+  for (let i = 0; i <= bulletPoint.length; i++) {
+    if (index === i) {
+      bulletPoint[index].id = "finish";
+  }
+}}
+
