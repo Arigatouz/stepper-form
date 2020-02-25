@@ -1,13 +1,27 @@
+html {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #222;
   color: rgb(186, 85, 85);
+  position: relative;
 }
-
+form {
+  position: absolute;
+  top: 40vh;
+  left: 40vw;
+  margin: 0 auto;
+}
 .tabs {
   display: none;
 }
 .button-previous,
-.button-submit {
+.button-submit,
+.button-reload {
   display: none;
 }
 .bullet-point {
@@ -20,7 +34,6 @@ body {
   display: inline-block;
   opacity: 0.5;
 }
-
 
 .bullet-point#finish {
   background-color: rgb(186, 85, 85);
