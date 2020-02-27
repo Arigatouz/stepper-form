@@ -2,9 +2,14 @@ form {
   position: absolute;
   top: 40vh;
   left: 40vw;
-  transform: translate(-20%,-20%);
+  transform: translate(-20%, -20%);
   margin: 0 auto;
-  border: 2px red solid;
+  // border: 1px red solid;
   padding: $medium-margin;
-  background-color: rgb(126, 57, 57);
+  border-radius: 3rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0.2rem 1rem 2rem rgb(59, 132, 195),
+    0.2rem 1.5rem 2.5rem rgb(59, 132, 195),
+    0.3rem 1.7rem 2.7rem rgb(59, 132, 195),
+    0.3rem 1.8rem 3rem rgb(59, 132, 195);
 }
