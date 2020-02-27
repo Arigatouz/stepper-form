@@ -1,0 +1,14 @@
+html {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: #ba5555;
+  position: relative;
+}
+/*# sourceMappingURL=mainpage.css.map */

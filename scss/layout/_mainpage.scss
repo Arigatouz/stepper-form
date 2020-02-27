@@ -1,0 +1,12 @@
+html {
+  font-size: $main-font-size;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $mainPage-background;
+  color: $color-bullet-after;
+  position: relative;
+}

@@ -1,0 +1,14 @@
+.bullet-point {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: $color-bullet-before;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.bullet-point#finish {
+  background-color: $color-bullet-after
+}

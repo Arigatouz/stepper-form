@@ -1,0 +1,10 @@
+form {
+  position: absolute;
+  top: 40vh;
+  left: 40vw;
+  transform: translate(-20%,-20%);
+  margin: 0 auto;
+  border: 2px red solid;
+  padding: $medium-margin;
+  background-color: rgb(126, 57, 57);
+}
